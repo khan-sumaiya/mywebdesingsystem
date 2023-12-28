@@ -1,1 +1,328 @@
+/** CORMORANT GARAMOND**/
 
+@font-face {
+    font-family: "myGaramondLight";
+    src: url(fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "myGaramondRegular";
+    src: url(fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "myGaramondMedium";
+    src: url(fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+}
+
+@font-face {
+    font-family: "myGaramondSemiBold";
+    src: url(fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "myGaramondBold";
+    src: url(fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+    font-weight: 700;
+}
+
+/** CORMORANT INFANT**/
+
+@font-face {
+    font-family:"myInfantBold" ;
+    src: url(fonts/Cormorant_Infant/CormorantInfant-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "myInfantSemiBold" ;
+    src: url(fonts/Cormorant_Infant/CormorantInfant-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "myInfantMedium" ;
+    src: url(fonts/Cormorant_Infant/CormorantInfant-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "myInfantRegular";
+    src: url(fonts/Cormorant_Infant/CormorantInfant-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "myInfantLight";
+    src: url(fonts/Cormorant_Infant/CormorantInfant-Light.ttf);
+    font-weight: 300;
+}
+
+/** CORMORANT UPRIGHT**/
+
+@font-face {
+    font-family:"myUprightBold" ;
+    src: url(fonts/Cormorant_Upright/CormorantUpright-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "myUprightSemiBold";
+    src: url(fonts/Cormorant_Upright/CormorantUpright-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "myUprightMedium";
+    src: url(fonts/Cormorant_Upright/CormorantUpright-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "myUprightRegular";
+    src: url(fonts/Cormorant_Upright/CormorantUpright-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "myUprightLight";
+    src: url(fonts/Cormorant_Upright/CormorantUpright-Light.ttf);
+    font-weight: 300;
+}
+
+/** TRIRONG**/
+
+@font-face {
+    font-family: "myTrirongBold";
+    src: url(fonts/Trirong/Trirong-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "myTrirongSemiBold";
+    src: url(fonts/Trirong/Trirong-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "myTrirongMedium";
+    src: url(fonts/Trirong/Trirong-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "myTrirongRegular";
+    src: url(fonts/Trirong/Trirong-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "myTrirongLight";
+    src: url(fonts/Trirong/Trirong-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "myTrirongThin";
+    src: url(fonts/Trirong/Trirong-Thin.ttf);
+    font-weight: 100;
+}
+
+
+body{
+    background-color: rgb(230, 241, 220);
+}
+
+#pagetitle {
+    font-family: "myGaramondBold", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(31, 46, 18);
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.topic{
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+}
+
+/**COLORS**/
+
+#colorpalette {
+    background-color: rgb(98, 110, 61);
+}
+
+.subsectiontitle {
+    text-align: left;
+    padding: 10px 20px 0px 20px;
+    font-family: "myGaramondRegular";
+    font-size: 35px;
+    color: white;
+}
+
+p{
+    text-align: left;
+    padding:0px 20px;
+    font-family: "myGaramondLight";
+    font-size: 16px;
+    color: white;
+}
+
+.colors{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    font-family: "myGaramondMedium";
+}
+
+.singlecolor{
+    box-shadow: 2px 2px 4px rgb(44, 44, 44);
+    border-radius: 30px;
+}
+
+#mint{
+    background-color: rgb(166, 182, 153);
+}
+
+#pistachio{
+    background-color: rgb(230, 241, 220);
+}
+
+#almond{
+    background-color: rgb(204, 186, 151);
+}
+
+#mocha{
+    background-color: rgb(140, 130, 98);
+}
+
+.name{
+    border-radius: 30px 30px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    height: 20%;
+    line-height: 2.6;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.colorcodes{
+    margin: 10px 15px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+/**FONTS**/
+
+#myfonts{
+background-color: rgb(140, 130, 98);
+}
+
+#fonts{
+    width: 100%;
+    background-color: rgb(204, 186, 151);
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgb(44, 44, 44);
+    font-size: 16px;
+}
+
+.curvedbordertop{
+    border-radius: 30px 0px 0px 0px;
+    background-color: white;
+    font-weight: 100;
+}
+
+.curvedborderbottom{
+    border-radius: 0px 0px 0px 30px;
+}
+
+ #fonts {
+border-collapse: collapse;
+border: 0 none;
+border-radius: 30px;
+ }
+
+ .tableheader {
+    height: 40px;
+    line-height: 1.5;
+    background-color: rgb(166, 182, 153);
+ }
+
+ #fonts td{
+    height: 30px;
+ }
+
+.fontweight{
+font-size: 12px;
+padding-right: 2px;
+width: 15%;
+}
+
+/**STYLING TEXT ELEMENTS**/
+
+#stylingtextelements{
+    background-color: rgb(98, 110, 61);
+    }
+
+.textelement{
+    float: left;
+}
+
+#subtitle{
+    text-align: left;
+    font-family: "myGaramondRegular";
+    font-size: 35px;
+    color: white;
+}
+
+#body{
+    font-size: 25px;
+    font-family: "myGaramondRegular";
+}
+
+#googlefonts{
+    font-family: "myGaramondLight";
+    color: rgb(204, 186, 151);
+    text-shadow: 1px 1px 5px black;
+}
+
+#googlefonts:hover{
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.googlefontlink{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.googlefontlink:hover{
+    text-shadow: 2px 1px 1px black;
+    color: rgb(230, 241, 220);
+}
+
+/**STYLING BOX ELEMENTS**/
+
+#stylingboxelements{
+    background-color: rgb(140, 130, 98);
+}
+
+ol, li {
+    text-align: left;
+    font-family: "myGaramondRegular";
+    color: white;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+}
